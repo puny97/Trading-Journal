@@ -1,6 +1,6 @@
 'use client'
 
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/app/components/ui/tabs'
 import DashboardTab from '../dashboard-tab/DashboardTab'
 import TradesTab from '../trades-tab/TradesTab'
 import AnalyticsTab from '../analytics-tab/AnalyticsTab'
