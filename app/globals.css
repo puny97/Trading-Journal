@@ -134,3 +134,31 @@ body {
     @apply font-sans;
   }
 }
+
+@theme {
+  /* Backgrounds */
+  --color-page: #f7f8fa;
+  --color-surface: #ffffff;
+  --color-border: #e5e7eb;
+
+  /* Brand */
+  --color-accent: #2b57f5;
+  --color-accent-bg: #eef2ff;
+
+  /* Semantic (P&L / status) */
+  --color-profit: #16a34a;
+  --color-profit-bg: #dcfce7;
+  --color-loss: #dc2626;
+  --color-loss-bg: #fee2e2;
+  --color-open: #d97706;
+  --color-open-bg: #fef3c7;
+
+  /* Text */
+  --color-text: #1a1d29;
+  --color-secondary: #6b7280;
+  --color-muted: #9ca3af;
+
+  /* Fonts */
+  --font-sans: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
